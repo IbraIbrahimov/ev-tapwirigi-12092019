@@ -1,0 +1,40 @@
+.h1-title{
+    color: black;
+  
+    
+   text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.h1-title::before{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 200px;
+    height: 5px;
+    background-color: black;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+}
+
+.h1-title::after{
+    position: absolute;
+    content: '';
+    display: inline-block;
+    width: 80px;
+    height: 5px;
+    background-color: red;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+
+    transition: width .5s linear;
+    
+}
+
+.h1-title:hover:after{
+    width: 200px;
+
+}
