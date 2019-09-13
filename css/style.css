@@ -1,4 +1,4 @@
-.h1-title{
+/* .h1-title{
     color: black;
   
     
@@ -36,5 +36,23 @@
 
 .h1-title:hover:after{
     width: 200px;
+
+} */
+
+#c1{
+
+width: 400px;
+height: 400px;
+border: 3px solid black;
+margin: 50px;
+
+
+}
+
+.input{
+
+    border: 2px solid black;
+    height: 38px;
+    margin-top: 13px;
 
 }
