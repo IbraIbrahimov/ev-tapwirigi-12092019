@@ -47,8 +47,18 @@ btn.onclick=function(){
 }
 
 li.onclick=function(){
+// btnLi.onclick=function(){
+
+//     removeLi(btnLi);
+
+// }
+
+li.children[0].setAttribute('onclick',"removeLi(this)");
+
 
     addToP(li);
+
+
     
 }
 
